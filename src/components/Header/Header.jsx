@@ -23,7 +23,7 @@ export const Header = () => {
           {/* {location.pathname !== '/cart' && ( */}
           {/* <Link to="/cart" className="button button--cart"> */}
           <span>15 $</span>
-          <div className="button__delimiter">|</div>
+          <div className={styles.button_delimiter}></div>
           <img width="19" src={shoppingCart} alt="Shopping cart" />
           <span>0</span>
 

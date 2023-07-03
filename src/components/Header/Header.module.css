@@ -20,13 +20,13 @@
 .header_cart {
   display: flex;
   gap: 10px;
-  padding: 15px 23px;
+  padding: 18px 23px;
   min-width: 150px;
   /* height: 50px; */
   align-items: center;
   justify-content: center;
   border-radius: 30px;
-  background-color: orangered;
+  background-color: #fe5f1e;
 
   font-weight: 700;
   font-size: 16px;
@@ -51,4 +51,12 @@
 
 .header_text {
   color: #7b7b7b;
+}
+
+.button_delimiter {
+  width: 1px;
+  height: 25px;
+  background-color: rgba(255, 255, 255, 0.25);
+  margin-left: 14px;
+  margin-right: 14px;
 }
