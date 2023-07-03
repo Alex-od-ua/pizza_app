@@ -1,9 +1,9 @@
 .header {
-  padding-bottom: 30px;
-  border-bottom: 1px solid gray;
+  padding: 40px 0;
+  border-bottom: 1px solid #f6f6f6;
 }
 
-.container {
+.header_item {
   display: flex;
   align-items: center;
   justify-content: space-between;
