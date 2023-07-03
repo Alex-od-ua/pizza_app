@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/pizza_app/static/css/main.683e14c8.css",
-    "main.js": "/pizza_app/static/js/main.98848c8d.js",
+    "main.css": "/pizza_app/static/css/main.c1073acb.css",
+    "main.js": "/pizza_app/static/js/main.7357ee26.js",
     "static/media/logoSvg.svg": "/pizza_app/static/media/logoSvg.cf6d3b6be905864076d6bda85444ef62.svg",
     "static/media/shopping-cart.svg": "/pizza_app/static/media/shopping-cart.d05720f2b474db2145233cd2ce1d4e91.svg",
     "index.html": "/pizza_app/index.html",
-    "main.683e14c8.css.map": "/pizza_app/static/css/main.683e14c8.css.map",
-    "main.98848c8d.js.map": "/pizza_app/static/js/main.98848c8d.js.map"
+    "main.c1073acb.css.map": "/pizza_app/static/css/main.c1073acb.css.map",
+    "main.7357ee26.js.map": "/pizza_app/static/js/main.7357ee26.js.map"
   },
   "entrypoints": [
-    "static/css/main.683e14c8.css",
-    "static/js/main.98848c8d.js"
+    "static/css/main.c1073acb.css",
+    "static/js/main.7357ee26.js"
   ]
 }
