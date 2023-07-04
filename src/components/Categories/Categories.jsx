@@ -1,3 +1,5 @@
+// import { Sort } from 'components/Sort/Sort';
+
 import styles from './Categories.module.css';
 
 const categories = [
@@ -27,6 +29,7 @@ export const Categories = ({ value, onChangeCategory }) => {
           </li>
         ))}
       </ul>
+      {/* <Sort /> */}
     </div>
   );
 };

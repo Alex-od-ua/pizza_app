@@ -1,0 +1,144 @@
+.list_pizza {
+  width: 280px;
+  text-align: center;
+  /* margin-bottom: 65px; */
+  transition: all 0.2s ease-in-out;
+}
+.list_pizza:hover {
+  transform: scale(1.03);
+}
+
+.list_pizza_wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.list_pizza_image {
+  width: 280px;
+}
+
+.active {
+  background-color: #ffffff;
+  transform: translateY(1px);
+  color: #2c2c2c;
+}
+
+.list_pizza_title {
+  font-size: 20px;
+  font-weight: 900;
+  letter-spacing: 1%;
+  margin-bottom: 20px;
+}
+
+.list_pizza_selector {
+  display: flex;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  flex-direction: column;
+  padding: 6px;
+}
+.list_pizza_ul {
+  display: flex;
+  flex: 1;
+}
+.list_pizza_ul:first-of-type {
+  margin-bottom: 6px;
+}
+
+.list_pizza_item {
+  padding: 8px;
+  flex: 1;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  /* @include noselect(); */
+}
+.list_pizza_item.active {
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.04);
+  border-radius: 5px;
+  cursor: auto;
+}
+
+.list_pizza_bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.list_pizza_price {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.015em;
+}
+
+.list_pizza_button {
+  display: inline-block;
+  background-color: orange;
+  border-radius: 30px;
+  padding: 10px 20px;
+  min-width: 100px;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color red ease-in-out, border-color blue ease-in-out;
+  border: 1px solid transparent;
+  /* @include noselect(); */
+}
+
+.button_svg {
+  margin-right: 2px;
+  fill: #fff;
+}
+
+.button_text {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* &--add { */
+/* svg {
+      margin-right: 2px;
+    } */
+
+/* span {
+      font-weight: 600;
+      font-size: 16px;
+    } */
+
+/* &:hover {
+      i {
+        background-color: #fff;
+        color: $orange;
+      }
+    } */
+
+/* &--outline {
+    background-color: #fff;
+    border-color: $orange;
+    &,
+    span {
+      color: $orange;
+    } */
+
+/* svg {
+      path {
+        fill: $orange;
+      }
+    }
+
+    &:hover {
+      background-color: $orange;
+
+      &,
+      span {
+        color: #fff;
+      }
+
+      svg {
+        path {
+          fill: #fff;
+        }
+      }
+    } */
