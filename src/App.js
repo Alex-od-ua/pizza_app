@@ -1,9 +1,14 @@
-import { HomePage } from 'pages/HomePage/HomePage';
+import { BrowserRouter } from 'react-router-dom';
+import UserRoutes from 'UserRoutes';
 
-import './App.css';
+import './App.module.css';
 
 function App() {
-  return <HomePage />;
+  return (
+    <BrowserRouter basename="/pizza_app">
+      <UserRoutes />;
+    </BrowserRouter>
+  );
 }
 
 export default App;

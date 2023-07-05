@@ -9,7 +9,7 @@ import { pizzas } from './HomePageTest';
 
 import styles from './HomePage.module.css';
 
-export const HomePage = () => {
+const HomePage = () => {
   const newPizzas = pizzas.map(item => {
     return <ListPizza name={item.name} imageUrl={item.image} />;
   });
@@ -33,3 +33,5 @@ export const HomePage = () => {
     </div>
   );
 };
+
+export default HomePage;
