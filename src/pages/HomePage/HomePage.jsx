@@ -1,9 +1,8 @@
 import { Container } from 'components/Container/Container';
-import { Header } from 'components/Header/Header';
+
 import { Categories } from 'components/Categories/Categories';
 import { Sort } from 'components/Sort/Sort';
 import { ListPizza } from 'components/ListPizza/ListPizza';
-// import { Button } from 'components/Button/Button';
 
 import { pizzas } from './HomePageTest';
 
@@ -15,22 +14,16 @@ const HomePage = () => {
   });
 
   return (
-    <div className={styles.wrapper}>
-      <Header />
-      <div className={styles.content}>
-        <Container>
-          <div className={styles.top_content}>
-            <Categories />
-            <Sort />
-          </div>
-          <h2 className={styles.content_title}>Все пиццы</h2>
-          {/* <ListPizza /> */}
-          <div className={styles.content_pizza}>
-            {newPizzas} {newPizzas}
-          </div>
-        </Container>
+    <Container>
+      <div className={styles.top_content}>
+        <Categories />
+        <Sort />
       </div>
-    </div>
+      <h2 className={styles.content_title}>Все пиццы</h2>
+      <div className={styles.content_pizza}>
+        {newPizzas} {newPizzas}
+      </div>
+    </Container>
   );
 };
 

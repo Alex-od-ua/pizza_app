@@ -17,6 +17,10 @@
   margin-left: 15px;
 }
 
+.header_link {
+  text-decoration: none;
+}
+
 .header_cart {
   display: flex;
   gap: 10px;
@@ -27,6 +31,7 @@
   justify-content: center;
   border-radius: 30px;
   background-color: #fe5f1e;
+  text-decoration: none;
 
   font-weight: 700;
   font-size: 16px;
