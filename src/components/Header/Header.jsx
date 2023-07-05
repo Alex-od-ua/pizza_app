@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 
 import { Container } from 'components/Container/Container';
+import { Search } from 'components/Search/Search';
 import logoSvg from '../../assets/images/logoSvg.svg';
 
 import styles from './Header.module.css';
@@ -24,7 +25,8 @@ export const Header = () => {
               </div>
             </div>
           </Link>
-          {/* {location.pathname !== '/cart' && <Search />} */}
+
+          {location.pathname !== '/cart' && <Search />}
           <div>
             {location.pathname !== '/cart' && (
               <Link to="/cart" className={styles.header_cart}>

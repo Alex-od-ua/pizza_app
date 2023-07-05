@@ -3,6 +3,7 @@ import { Container } from 'components/Container/Container';
 import { Categories } from 'components/Categories/Categories';
 import { Sort } from 'components/Sort/Sort';
 import { ListPizza } from 'components/ListPizza/ListPizza';
+import { Pagination } from 'components/Pagination/Pagination';
 
 import { pizzas } from './HomePageTest';
 
@@ -23,6 +24,7 @@ const HomePage = () => {
       <div className={styles.content_pizza}>
         {newPizzas} {newPizzas}
       </div>
+      <Pagination currentPage={1} />
     </Container>
   );
 };
