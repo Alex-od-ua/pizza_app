@@ -1,15 +1,29 @@
 {
   "files": {
-    "main.css": "/pizza_app/static/css/main.c1073acb.css",
-    "main.js": "/pizza_app/static/js/main.7357ee26.js",
+    "main.css": "/pizza_app/static/css/main.f02c996d.css",
+    "main.js": "/pizza_app/static/js/main.f6495289.js",
+    "static/css/950.ab6d90ff.chunk.css": "/pizza_app/static/css/950.ab6d90ff.chunk.css",
+    "static/js/950.eac03372.chunk.js": "/pizza_app/static/js/950.eac03372.chunk.js",
+    "static/js/95.64a1d164.chunk.js": "/pizza_app/static/js/95.64a1d164.chunk.js",
+    "static/css/402.8940e228.chunk.css": "/pizza_app/static/css/402.8940e228.chunk.css",
+    "static/js/402.3d757fc4.chunk.js": "/pizza_app/static/js/402.3d757fc4.chunk.js",
+    "static/media/Креветки по-азиатски.jpg": "/pizza_app/static/media/Креветки по-азиатски.40e08d7e6659be31b01d.jpg",
+    "static/media/Сырный цыпленок.jpg": "/pizza_app/static/media/Сырный цыпленок.436e73c07e84775b161e.jpg",
+    "static/media/Сырная.jpg": "/pizza_app/static/media/Сырная.568c74f76ae37a2dcdd8.jpg",
+    "static/media/Чизбургер-пицца.jpg": "/pizza_app/static/media/Чизбургер-пицца.92645d5513306cecb515.jpg",
     "static/media/logoSvg.svg": "/pizza_app/static/media/logoSvg.cf6d3b6be905864076d6bda85444ef62.svg",
     "static/media/shopping-cart.svg": "/pizza_app/static/media/shopping-cart.d05720f2b474db2145233cd2ce1d4e91.svg",
     "index.html": "/pizza_app/index.html",
-    "main.c1073acb.css.map": "/pizza_app/static/css/main.c1073acb.css.map",
-    "main.7357ee26.js.map": "/pizza_app/static/js/main.7357ee26.js.map"
+    "main.f02c996d.css.map": "/pizza_app/static/css/main.f02c996d.css.map",
+    "main.f6495289.js.map": "/pizza_app/static/js/main.f6495289.js.map",
+    "950.ab6d90ff.chunk.css.map": "/pizza_app/static/css/950.ab6d90ff.chunk.css.map",
+    "950.eac03372.chunk.js.map": "/pizza_app/static/js/950.eac03372.chunk.js.map",
+    "95.64a1d164.chunk.js.map": "/pizza_app/static/js/95.64a1d164.chunk.js.map",
+    "402.8940e228.chunk.css.map": "/pizza_app/static/css/402.8940e228.chunk.css.map",
+    "402.3d757fc4.chunk.js.map": "/pizza_app/static/js/402.3d757fc4.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c1073acb.css",
-    "static/js/main.7357ee26.js"
+    "static/css/main.f02c996d.css",
+    "static/js/main.f6495289.js"
   ]
 }

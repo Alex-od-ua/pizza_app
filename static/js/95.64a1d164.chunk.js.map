@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/95.64a1d164.chunk.js","mappings":"4HAIA,UAJiB,WACf,OAAOA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,SACd,C","sources":["pages/CartPage/CartPage.jsx"],"sourcesContent":["const CartPage = () => {\n  return <div>Hello</div>;\n};\n\nexport default CartPage;\n"],"names":["_jsx","children"],"sourceRoot":""}
