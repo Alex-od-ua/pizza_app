@@ -8,8 +8,8 @@ const instance = axios.create({
   },
 });
 
-export const getAll = async (page = 1, sort, sortBy) => {
-  const { data } = await instance.get('/Pizza', {
+export const getAllPizza = async (page = 1, sort, sortBy) => {
+  const { data } = await instance.get('/pizza', {
     params: {
       page,
       sortBy: `${sort}`,
